@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+}
+html, body{
+height: 100%;/*sirina*/
+weight: 100%;
+}
+body{
+  margin: 0px;
+  background-color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color: #1f1f1f;
+  line-height: 1.4;
+  weight: 100%;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+small{
+  font-size: 12px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+  text-decoration: none;
+}
+.container{
+  width: 100%;
+.panel .panel-body{
+  height: 150px;
+}
+
+}
+.container-fluid{
+	 width: 100%;
+}
+h3{
+	text-align: center;
+}
+
+#drugidiv{
+    display: table;
+    width: 100%;
+    height: 100%;
+
+
+    background-size: cover;
+
+    margin-bottom: 30px;
+}
+
+.main-footer{
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+1,000333+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top, #000000 1%, #333333 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #000000 1%,#333333 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #000000 1%,#333333 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+color: #fff;
+padding: 50px 0;
+margin-top: 100px;
+position: relative;
+text-align:center;
+
+}
+.soc-net{
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.soc-net li{
+  float: left;
+  margin-right: 10px;
+
+
+}
+
+.soc-net li:last-child{
+  margin-right: 0;
+}
+
+.soc-net li a{
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  background-image: url(../../assets/img/soc-net-sprite.png);
+  text-indent: -999999px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+
+}
+.facebook{
+  background-color: #3c5a98;
+
+}
+.facebook:hover{
+  background-position: 0 -40px;
+
+}
+.twitter{
+  background-color: #00adee;
+  background-position: -40px 0;
+
+}
+.twitter:hover{
+  background-position: -40px -40px;
+}
+
+.linked-in{
+  background-color: #069;
+  background-position: -80px 0;
+}
+.linked-in:hover{
+  background-position: -80px -40px;
+}
+
+.main-footer p{
+  margin: 0;
+  line-height: 0.2;
+
+}
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+.clearfix::after{
+  clear: both;
+}
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

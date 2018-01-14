@@ -1,0 +1,38 @@
+
+.container-fluid{
+	 width: 100%;
+}
+#myCarousel{
+	width: 100%;
+}
+.carousel{
+	width: 100%;
+}
+.slide{
+	width: 100%;
+}
+
+#sitetitle{
+    color: white ;
+    font-size: 86px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#findMore{
+  background: #194496;
+  font-size: 26px;
+  border-radius: 12px;
+  padding: 8px 20px;
+}
+
+#drugidiv p {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.subTitle{
+      font-family: initial;
+      font-size: 36px;
+}
